@@ -1,8 +1,5 @@
 package com.daniel.algorithm;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author Administrator
  * @date 2021/12/3 16:40
@@ -45,6 +42,11 @@ public class MaxAreaOfIsland {
         return ans;
     }
 
+    /**
+     * [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[][] grid = {
                 {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
